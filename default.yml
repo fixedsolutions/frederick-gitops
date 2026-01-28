@@ -11,10 +11,18 @@ agent_options:
   path: ./lib/agent-options.yml
 controls: # This cannot be set here and in no-team.yml
 org_settings:
+  fleet_desktop:
+    transparency_url: https://catoftheday.com
+  host_expiry_settings:
+    host_expiry_enabled: true
+    host_expiry_window: 30
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Fixed Solutions
+  webhook_settings:
+    enable_activities_webhook: true
+    destination_url: https://blpbeyond.jamfcloud.com
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
