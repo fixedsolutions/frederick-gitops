@@ -7,7 +7,7 @@
 # Then add that secret to .github/workflows/workflow.yml as an env variable.
 # The secret name in the YAML file must match the secret name in GitHub Actions secrets.
 
-name: New_Hires
+name: New Hires
 policies:
 queries:
   - path: ../lib/all/queries/collect-failed-login-attempts.queries.yml
