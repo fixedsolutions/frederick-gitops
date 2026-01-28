@@ -21,8 +21,9 @@ org_settings:
   org_info:
     org_name: Fixed Solutions
   webhook_settings:
-    enable_activities_webhook: true
-    destination_url: https://www.bloomberg.com
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://www.bloomberg.com
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
