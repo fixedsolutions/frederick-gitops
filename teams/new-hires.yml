@@ -19,8 +19,8 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-dns-cloudflare.sh
 macos_settings:
-    custom_settings:
-      - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  custom_settings:
+    - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
   macos_updates:
     deadline: "2026-01-30"
     minimum_version: "26.2"
